@@ -125,12 +125,15 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: "Titan One", sans-serif;
     font-size: 3rem;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 15px; 
+    white-space: nowrap;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .happy, .title .anniversary{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -144,7 +147,7 @@ body {
 .title .happy{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .happy span, .title .anniversary span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +160,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .anniversary{
     color: var(--color-text-pink);
 }
 
