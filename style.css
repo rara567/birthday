@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .ulang, .title .tahun{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -141,10 +141,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.title .happy{
+.title .ulang{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .ulang span, .title .tahun span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .tahun{
     color: var(--color-text-pink);
 }
 
